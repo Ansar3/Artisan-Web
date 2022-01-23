@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    public class ProductRepository : IProductRepository
+    public class ProductRepository : IGenericeRepository
     {
         private readonly  StoreContext _context;
         public ProductRepository(StoreContext context)
